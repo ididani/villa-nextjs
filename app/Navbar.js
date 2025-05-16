@@ -69,7 +69,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 bg-black shadow-lg">
-          {["about", "gallery", "map", "booking"].map((section) => (
+          {["about", "rooms", "location", "booking"].map((section) => (
             <a
               key={section}
               href={`#${section}`}
