@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Saranda Villas",
+  title: "Villa Didani",
 };
 
 export default function RootLayout({ children }) {
