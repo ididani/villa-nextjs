@@ -32,7 +32,7 @@ export default function RoomsSection() {
     {
       id: 2,
       name: "Triple Room",
-      images: ["../room12.jpg", "../room4jpg", "../bath5.jpg", "../sink1.jpg"],
+      images: ["../room12.jpg", "../room4.jpg", "../bath5.jpg", "../sink1.jpg"],
       description:
         "Ideal for small groups or families, our Triple Rooms combine comfort and style. They feature a king-sized bed and a twin bed with garden views and access. Enjoy modern conveniences including a 43-inch 4K TV, air conditioning, minibar with mini fridge, and a wet bar with sink and counter space. Each room has its own private bathroom.",
       price: "Rates vary by season",
@@ -76,7 +76,6 @@ export default function RoomsSection() {
         "../room5.jpg",
         "../room9.jpg",
         "../bath3.jpg",
-        "../balcony.jpg",
       ],
       description:
         "A cozy option for 3–4 guests, this one-bedroom apartment offers a separate living room with sofa bed, dining area, and a small kitchen with cooking essentials, sink, and fridge. Step out onto your private balcony to enjoy sea views, or unwind indoors with a 43-inch 4K TV and air conditioning. Includes a private bathroom.",
