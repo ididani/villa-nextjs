@@ -200,7 +200,7 @@ export default function RoomsSection() {
 
               {/* Room Info */}
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-4">{selectedRoom.name}</h3>
+                <h3 className="text-2xl font-bold mb-4 font-manrope">{selectedRoom.name}</h3>
                 <p className="text-gray-700 mb-4">{selectedRoom.description}</p>
                 <p className="text-md font-semibold text-red-600 mb-6">
                   {selectedRoom.price}
