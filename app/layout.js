@@ -22,11 +22,19 @@ const manrope = Manrope({
 
 export const metadata = {
   title: "The Didani Villa",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${manrope.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="font-sans">{children}</body>
     </html>
   );
