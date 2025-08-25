@@ -1,10 +1,10 @@
 export default function MapSection() {
   return (
-    <section id="location" className="w-full p-8 md:p-16">
+    <section id="location" className="w-full px-6 py-16 md:px-16 bg-gray-50">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
         Find Us
       </h2>
-      <div className="w-full h-80 md:h-[500px]">
+      <div className="relative w-full h-80 md:h-[500px] rounded-2xl shadow-lg overflow-hidden">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.027686336076!2d20.0195625!3d39.8360625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x675fc6563caac9b5%3A0x1223f2051a838397!2sThe%20Didani%20Villa!5e1!3m2!1sen!2s!4v1754749905624!5m2!1sen!2s"
           width="100%"
@@ -14,6 +14,10 @@ export default function MapSection() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+        <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md p-4 rounded-lg shadow">
+          <h3 className="font-semibold">The Didani Villa</h3>
+          <p className="text-sm text-gray-600">Sarande, Albania</p>
+        </div>
       </div>
       <a
         href="https://wa.me/+355685526714"
